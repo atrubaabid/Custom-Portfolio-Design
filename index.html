@@ -42,7 +42,7 @@
         aria-label="Toggle navigation">☰</button>
 
       <div id="navLinks"
-        class="absolute left-0 right-0 top-full hidden gap-4 flex flex-col items-center bg-white px-5 py-5 text-sm font-semibold md:static md:flex md:flex-row md:items-center md:gap-7 md:border-0 md:p-0">
+        class="absolute left-0 right-0 top-[-350px] duration-200 gap-4 flex flex-col items-center bg-white px-5 py-5 text-sm font-semibold md:static md:flex md:flex-row md:items-center md:gap-7 md:border-0 md:p-0">
         <a class="text-brand" href="#home">Home</a><a class="hover:text-brand" href="#about">About</a><a
           class="hover:text-brand" href="#skills">Skills</a><a class="hover:text-brand" href="#projects">Projects</a><a
           class="hover:text-brand" href="#contact">Contact</a>
@@ -219,12 +219,15 @@
 
     <!-- Projects -->
     <section id="projects" class="mx-auto max-w-6xl px-5 py-16">
+
       <div class="mb-7 flex items-center justify-between">
+
         <div class="flex items-center gap-3"><span class="h-0.5 w-6 bg-brand"></span>
           <h2 class="font-bold text-ink">My Projects</h2>
-        </div><a href="https://github.com/" class="text-sm font-semibold text-brand hover:text-blue-800">View All
+        </div><a href="#" class="text-sm font-semibold text-brand hover:text-blue-800">View All
           Projects&nbsp; →</a>
       </div>
+      
       <div class="grid gap-6 md:grid-cols-3">
         <article
           class="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-soft">
@@ -354,7 +357,7 @@
     // TOGGLE BTN
     const menuBtn = document.getElementById('menuBtn');
     const navLinks = document.getElementById('navLinks');
-    menuBtn.addEventListener('click', () => navLinks.classList.toggle('hidden'));
+    menuBtn.addEventListener('click', () => navLinks.classList.toggle('top-[60px]'));
 
 
 

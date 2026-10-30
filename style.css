@@ -1,0 +1,25 @@
+    body {
+      font-family: Inter, sans-serif
+    }
+
+    .handwritten {
+      font-family: Kalam, cursive
+    }
+
+    .skill-icon {
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1
+    }
+
+    .project-thumb {
+      background: linear-gradient(135deg, #172554, #3b82f6)
+    }
+
+    .project-thumb.food {
+      background: linear-gradient(135deg, #dcfce7, #86efac)
+    }
+
+    .project-thumb.shop {
+      background: linear-gradient(135deg, #0f172a, #334155)
+    }
